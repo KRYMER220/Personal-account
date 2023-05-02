@@ -36,4 +36,4 @@ dependencies {
 
 ### Graphical interface
 
-<img src="https://ibb.co/fXDPs3C">
+<img src="https://ltdfoto.ru/images/2023/05/02/3.jpg">
