@@ -12,6 +12,13 @@ This project is in active development and is not yet ready to be relied upon as 
 + Working with user data
 + Data accounting
 
+## In development
+
++ Working with user data
++ Admin panel
++ DB Views
++ Final GUI View
+
 ### Dependencies used
 ```
 dependencies {
