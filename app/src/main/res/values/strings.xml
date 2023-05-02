@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RJDAPP</string>
+    <string name="appVersion">ПО V1.1.0</string>
+    <string name="nav_open">Открыть меню</string>
+    <string name="nav_exit">Закрыть меню</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dateVerf"></string>
+
+
+</resources>

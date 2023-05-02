@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:id="@+id/fragmentHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="500dp"
+            android:background="@color/them"
+            android:gravity="bottom">
+
+            <RelativeLayout
+                android:id="@+id/logoMainBar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logomm" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logoMainBar">
+
+                <TextView
+                    android:id="@+id/textHello"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Добро пожаловать!"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textHello"
+                    android:layout_marginLeft="20dp"
+                    android:text="Ваш статус:"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textHello"
+                    android:layout_alignBottom="@+id/textStatus"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_toEndOf="@+id/textStatus"
+                    android:layout="@+id/textStatus"
+                    android:text="Не определён"
+                    android:textColor="@color/teal_200"
+                    android:textSize="20dp" />
+
+
+                <TextClock
+                    android:id="@+id/timeReal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textStatus"
+                    android:layout_marginLeft="20dp"
+
+
+                    android:layout_marginBottom="10dp"
+
+                    android:format12Hour="MM, dd, yyyy, EE, hh:mm"
+                    android:format24Hour="MM, dd, yyyy, EE, h:mm"
+                    android:textColor="#A5A5A5"
+                    android:textSize="17dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

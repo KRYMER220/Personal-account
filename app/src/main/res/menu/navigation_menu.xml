@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Личное"/>
+    <item android:id="@+id/mainMenu"
+        android:icon="@drawable/home"
+        android:title="Главная"/>
+    <item android:id="@+id/myJob"
+        android:icon="@drawable/job"
+        android:title="Моя работа"/>
+    <item android:id="@+id/mapWay"
+        android:icon="@drawable/map"
+        android:title="Карты профиля пути"/>
+    <item android:id="@+id/documentation"
+        android:icon="@drawable/doc"
+        android:title="Документация"/>
+    <item android:id="@+id/Instruction"
+        android:icon="@drawable/list2"
+        android:title="Инструктаж"/>
+    <item android:id="@+id/myMessage"
+        android:icon="@drawable/message"
+        android:title="Мои сообщения"/>
+    <item android:id="@+id/survey"
+        android:icon="@drawable/megafon"
+        android:title="Опросы"/>
+    <item android:id="@+id/events"
+        android:icon="@drawable/checklist"
+        android:title="Лента событий"/>
+    <item android:id="@+id/blog"
+        android:icon="@drawable/edit"
+        android:title="Блог"/>
+    <item android:id="@+id/forum"
+        android:icon="@drawable/forum"
+        android:title="Форум"/>
+    <item android:id="@+id/settingsProfile"
+            android:icon="@drawable/settings"
+            android:title="Настройки профиля"/>
+                   <item android:id="@+id/versionApp"
+                            android:title= '@string/appVersion'/>
+                    <item android:id="@+id/exit"
+                        android:icon="@drawable/exitprofile"
+                        android:title="Выйти"/>
+
+
+    </group>
+
+</menu>
