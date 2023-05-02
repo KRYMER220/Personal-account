@@ -37,3 +37,6 @@ dependencies {
 ### Graphical interface
 
 <img src="https://ltdfoto.ru/images/2023/05/02/3.jpg">
+<img src="https://ltdfoto.ru/images/2023/05/02/449654511c459fe89.jpg">
+<img src="https://ltdfoto.ru/images/2023/05/02/8fb4b386cf9c17ddc.jpg">
+<img src="https://ltdfoto.ru/images/2023/05/02/9.jpg">
