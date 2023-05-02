@@ -36,5 +36,5 @@ dependencies {
 
 ### Graphical interface
 
-<img width="200" height="300" src="https://ltdfoto.ru/images/2023/05/02/3.jpg"><img width="200" height="300"src="https://ltdfoto.ru/images/2023/05/02/449654511c459fe89.jpg">
-<img width="200" height="300" src="https://ltdfoto.ru/images/2023/05/02/8fb4b386cf9c17ddc.jpg"><img width="200" height="300" src="https://ltdfoto.ru/images/2023/05/02/9.jpg">
+<img width="200" height="400" src="https://ltdfoto.ru/images/2023/05/02/3.jpg"> <img width="200" height="400" src="https://ltdfoto.ru/images/2023/05/02/449654511c459fe89.jpg">
+<img width="200" height="400" src="https://ltdfoto.ru/images/2023/05/02/8fb4b386cf9c17ddc.jpg"> <img width="200" height="400" src="https://ltdfoto.ru/images/2023/05/02/9.jpg">
